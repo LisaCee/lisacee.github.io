@@ -1,0 +1,13 @@
+{
+  "name": "LisaCeePortfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Web Designer Lisa Canini",
+  "main": "index.html",
+  "repository": "https://github.com/LisaCee/LisaCeePortfolio.git",
+  "author": "LisaCee <lisaceedesign@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm build"
+  }
+  
+}
