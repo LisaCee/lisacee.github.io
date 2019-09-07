@@ -107,7 +107,7 @@ export default function PersistentDrawerRight() {
             Lisa Canini
           </Typography>
           <Hidden xsDown>
-            <Typography variant='h6'>Full Stack Web Developer</Typography>
+            <Typography variant='body1'>Full Stack Web Developer</Typography>
           </Hidden>
           <IconButton
             color='inherit'
