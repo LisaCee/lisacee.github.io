@@ -34,4 +34,10 @@ svg.MuiSvgIcon-root {
 #hamburger {
   color: white !important;
 }
+
+@media (min-width: 996px) {
+  header.MuiPaper-root {
+    max-height: 100px;
+  }
+}
 /*# sourceMappingURL=navDrawer.css.map */
