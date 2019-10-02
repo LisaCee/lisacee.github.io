@@ -22,9 +22,11 @@ h5#name {
 #hamburger {
   color: white !important;
 }
+
 .MuiIconButton-root:hover {
   background-color: $primaryDark !important;
   color: white !important;
+  text-decoration: none;
 }
 .MuiIconButton-root:hover svg.MuiSvgIcon-root {
   color: white !important;
