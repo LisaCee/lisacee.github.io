@@ -53,6 +53,13 @@ h5#name {
 .socialNav span.icon {
   display: none;
 }
+i {
+  color: $primaryDark;
+}
+
+i:hover {
+  color: white;
+}
 
 @media (min-width: 996px) {
   header.MuiPaper-root {

@@ -229,14 +229,7 @@ export default function PersistentDrawerRight() {
               <span class="sr-only">LinkedIn</span>
             </ListItem>
           </a>
-          <a href="mailto:lisaceedesign@gmail.com?Subject=Hello">
-            <ListItem button>
-              <ListItemIcon>
-                <i className="fas fa-envelope fa-2x" />
-              </ListItemIcon>
-              <span class="sr-only">Email</span>
-            </ListItem>
-          </a>
+
         </List>
       </Drawer>
     </div>

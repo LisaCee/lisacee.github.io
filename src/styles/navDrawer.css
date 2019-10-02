@@ -30,6 +30,7 @@ h5#name {
 .MuiIconButton-root:hover {
   background-color: #007388 !important;
   color: white !important;
+  text-decoration: none;
 }
 
 .MuiIconButton-root:hover svg.MuiSvgIcon-root {
@@ -63,6 +64,14 @@ h5#name {
 
 .socialNav span.icon {
   display: none;
+}
+
+i {
+  color: #007388;
+}
+
+i:hover {
+  color: white;
 }
 
 @media (min-width: 996px) {
