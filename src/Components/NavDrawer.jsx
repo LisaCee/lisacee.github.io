@@ -173,8 +173,11 @@ export default function PersistentDrawerRight() {
               <ListItemText primary="Skills" />
             </ListItem>
           </a>
-          <a href="https://docs.google.com/document/d/1AMnusKqwQAVXko7qqk0BJz-QBk8X-PUtbLSxhsDbPQ8/edit?usp=sharing" target="_"
-            rel="noopener noreferrer">
+          <a
+            href="https://docs.google.com/document/d/1AMnusKqwQAVXko7qqk0BJz-QBk8X-PUtbLSxhsDbPQ8/edit?usp=sharing"
+            target="_"
+            rel="noopener noreferrer"
+          >
             <ListItem button>
               <ListItemIcon>
                 <FileCopyIcon />
@@ -192,44 +195,32 @@ export default function PersistentDrawerRight() {
           </a>
 
           <Divider />
-
-          <a
-            href="https://www.twitter.com/lisacee14"
-            target="_"
-            rel="noopener noreferrer"
-          >
-            <ListItem button>
-              <ListItemIcon>
-                <i className="fab fa-twitter" />
-              </ListItemIcon>
-              <span class="sr-only">Twitter</span>
-            </ListItem>
-          </a>
-          <a
-            href="https://www.github.com/lisacee"
-            target="_"
-            rel="noopener noreferrer"
-          >
-            <ListItem button>
-              <ListItemIcon>
-                <i className="fab fa-github" />
-              </ListItemIcon>
-              <span class="sr-only">GitHub</span>
-            </ListItem>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/lisacee"
-            target="_"
-            rel="noopener noreferrer"
-          >
-            <ListItem button>
-              <ListItemIcon>
-                <i className="fab fa-linkedin" />
-              </ListItemIcon>
-              <span class="sr-only">LinkedIn</span>
-            </ListItem>
-          </a>
-
+          <div className="social">
+            <a
+              href="https://www.twitter.com/lisacee14"
+              target="_"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter" />
+              <span className="sr-only">Twitter</span>
+            </a>
+            <a
+              href="https://www.github.com/lisacee"
+              target="_"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github" />
+              <span className="sr-only">GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lisacee"
+              target="_"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin" />
+              <span className="sr-only">LinkedIn</span>
+            </a>
+          </div>
         </List>
       </Drawer>
     </div>
